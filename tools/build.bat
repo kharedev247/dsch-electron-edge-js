@@ -34,30 +34,8 @@ exit /b 0
 
 :build
 
-if "%3" equ "2.0.0" (
-    SET target=8.9.3
-) else if "%3" equ "3.0.0" (
-    SET target=10.2.0
-) else if "%3" equ "4.0.0" (
-    SET target=10.11.0
-) else if "%3" equ "5.0.0" (
-    SET target=12.0.0
-) else if "%3" equ "6.0.0" (
-    SET target=12.4.0
-) else if "%3" equ "7.0.0" (
-    SET target=12.8.1
-) else if "%3" equ "8.0.0" (
-    SET target=12.13.0
-) else if "%3" equ "9.0.0" (
-    SET target=12.14.1
-) else if "%3" equ "10.0.0" (
-    SET target=12.16.3
-) else if "%3" equ "11.0.0" (
-    SET target=12.18.3
-) else if "%3" equ "12.0.0" (
-    SET target=14.16.0
-) else if "%3" equ "13.0.0" (
-    SET target=14.16.0
+if "%3" equ "16.0.0" (
+    SET target=16.9.1
 ) else (
     echo edge-electron-js does not support Electron %3.
     exit /b -1
