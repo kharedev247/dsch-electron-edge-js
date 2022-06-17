@@ -1,4 +1,4 @@
-declare module 'electron-edge-js' {
+declare module 'dsch-electron-edge-js' {
     function func<TInput, TOutput>(params: string | Function | Params | Source | TSQL): Func<TInput, TOutput>
     function func<TInput, TOutput>(language: string, params: string | Function | Params | Source | TSQL): Func<TInput, TOutput>
     interface Params {
